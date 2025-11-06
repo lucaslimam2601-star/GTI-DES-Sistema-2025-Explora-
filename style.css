@@ -1,0 +1,34 @@
+/* Estilos Customizados Movidos do bloco <style> */
+
+/* Gradiente do Header (Hero Section) */
+.hero-gradient {
+    background: linear-gradient(135deg, #04bef7 0%, #4b8ea2 100%);
+}
+
+/* Efeito de Hover do Card de Destino */
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Estilo de Gradiente para Respostas da IA (Embora não utilizado diretamente, mantido por completude) */
+.ai-response {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Animação do Cookie Banner */
+.cookie-banner {
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+/* Estilo para Overlay de Modals (opcional, pode ser feito com classes Tailwind) */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
